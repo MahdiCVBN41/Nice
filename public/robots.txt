@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.nice-demenagement.fr/sitemap.xml
+
+# Évitez l'exploration des pages inutiles (si vous en avez)
+Disallow: /_nuxt/
+Disallow: /api/
+Disallow: /devis?*
+Disallow: /*?*
